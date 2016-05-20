@@ -1,0 +1,82 @@
+
+
+.logo{
+	width: 198px;
+	padding-top: 3px;
+}
+
+
+.navbar-nav > li > a {
+	padding-top:14px !important; 
+	padding-bottom:5px !important;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.navbar {
+	min-height:65px !important;
+}
+
+.navbar-nav > li > a {
+    padding-top:23px !important;
+    padding-bottom: 0px;
+    min-height: 65px;
+}
+
+.nav .navbar-nav{
+	float: right!important;
+}
+
+li{
+	min-height:65px !important;
+}
+
+/*END NAVIGATION*/
+/*START BOX*/
+.box{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/background-01.png);
+	background-size: cover;
+}
+
+/*END BOX*/
+/*START ATRACTIONS*/
+
+.title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+.imagen{
+  	padding-right:0 !important;
+  	padding-left:0 !important;
+}
+
+.rowExhibitions{
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+
+
+
+#intro { 
+	background: url(../images/chairBackground-01-01.png)  0 fixed; 
+	background-repeat: repeat-y;
+	height: 400px; 
+	/*margin-top: 60px;*/ 
+	margin: 0 auto; 
+	width: 100%; 
+	position: relative; 
+	padding-top:300px;
+	background-size: cover;
+	padding-right:0 !important;
+  	padding-left:0 !important;
+
+}
