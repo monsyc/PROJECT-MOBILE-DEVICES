@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Phillip's Museum</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<meta charset="UTF-8">
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> -->
+<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="image/png" href="images/favicon-01.png"> <!-- FAVICON -->
-
+	<!-- <script type="text/javascript" src="js/npm.js"></script> -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
 </head>
 <body>
 	<div class="container"> <!-- START CONTAINER -->
@@ -28,7 +32,7 @@
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav pull-right">
+		      <ul class="nav navbar-nav ">
 		        <li class="active"><a href="exhibition.html">EXHIBITION<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">ATRACTIONS</a></li>
 		        <li><a href="#">INFORMATION/CONTACT US</a></li>
@@ -38,7 +42,13 @@
 		</nav> <!-- END NAV -->
 		<div class="row">
 			<div class="col-md-12 box-exhibition logo-white-box">
-				<h2 class="text-exhibition">FAMOUS CHAIRS EXHIBITIONS</h2>
+				<div style="">
+					<div class="famous-chairs">
+						<h2 class="text-exhibition">FAMOUS CHAIRS EXHIBITIONS</h2>
+					</div>
+				</div>
+				
+				
 			</div>
 		</div>
 		<div class="row"> <!-- START EXHIBITIONS -->
@@ -47,38 +57,44 @@
 			</div>
 		</div> <!-- END EXHIBITIONS -->
 		<div class="row row-chairs">
-			<div class="col-md-3 imagen">
+			<div class=" col-xs-6 col-sm-6 col-md-3 imagen col-text">
 				<p class="paragraph-exhibition">The 20th Century provided us with a great range of modern new furniture created by innovative and forward thinking designers and architects.</p>
 				<p class="paragraph-exhibition">With the introduction of new materials, chrome, PVC, plastic, and exploring the use of existing furniture materials, laminating timber and steam bending timber lead to a very broad range of exciting new styles of chairs, tables and sofas never seen or thought of before.</p>
-				<p class="paragraph-exhibition">These designers revolutionized the world of interior design and furniture and as a society.</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-01.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-01.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-1.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Eames Lounge Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-02.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-02.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-2.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Jam Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-03.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-03.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-3.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Barcelona Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-04.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-04.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-4.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Eames Plastic Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-05.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-05.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-5.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Le Corbusier Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-06.jpg" class="img-responsive">
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-06.jpg" class="img-responsive visible-lg visible-md">
+				<img src="images/exhibition/chairs-sm-6.jpg" class="img-responsive visible-sm visible-xs">
 				<p class="chair-name">Kandinsky Chair</p>
 			</div>
-			<div class="col-md-3 imagen">
-				<img src="images/exhibition/chairs-07.jpg" class="img-responsive">
-				<p class="chair-name">Louis Ghost Chair</p>
+			<div class="col-xs-6 col-sm-6 col-md-3 imagen">
+				<img src="images/exhibition/chairs-07.jpg" class="img-responsive visible-lg visible-md lastimage">
+				<img src="images/exhibition/chairs-sm-7.jpg" class="img-responsive visible-sm visible-xs" id="lastimage-image">
+				<p class="chair-name lastimage">Louis Ghost Chair</p>
 			</div>
 		</div>
 		<div class="row"> <!-- START UPCOMING EVENTS -->
@@ -87,11 +103,11 @@
 			</div>
 		</div>
 		<div class="row row-chairs">
-			<div class="col-md-6 imagen">
+			<div class="col-xs-6 col-sm-6 col-md-6 imagen">
 				<img src="images/exhibition/events-01.jpg" class="img-responsive">
 				<p class="chair-name">Family Workshop</p>
 			</div>
-			<div class="col-md-6 imagen">
+			<div class="col-xs-6 col-sm-6 col-md-6 imagen">
 				<img src="images/exhibition/events-02.jpg" class="img-responsive">
 				<p class="chair-name">Art Conference</p>
 			</div>
@@ -107,14 +123,14 @@
 		</div> <!-- INFORMATION OF THE MUSEUM -->
 	</div> <!-- END CONTAINER -->
 	<footer> <!-- START FOOTER -->
-		<div class="row text-footer">
-			© 2016 Local 10 - All Rights Reserved. design by <a href="http://monicasilvac.com/" class="text-footer-link">monicasilvac.com</a>
+		<div class=" text-footer">
+			<div class="col-lg-12">
+				<p>© 2016 Local 10 - All Rights Reserved. design by <a href="http://monicasilvac.com/" class="text-footer-link">monicasilvac.com</a></p>
+			</div>
 		</div>
 	</footer> <!-- END FOOTER -->
 	<!-- START SCRIPTS -->
-	<script type="text/javascript" src="js/npm.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
+	
 	<script type="text/javascript">
 		$(document).ready(function(){
    // cache the window object
@@ -130,7 +146,7 @@
 		var yPos = -($window.scrollTop() / $scroll.data('speed')); 
 		
 		// background position
-		var coords = '10% '+ yPos + 'px';
+		var coords = '50% '+ yPos + '40%';
 
 		// move the background
 		$scroll.css({ backgroundPosition: coords });	

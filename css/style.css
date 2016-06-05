@@ -2,12 +2,22 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+ul{
+	float: right !important;
+}
 
 .logo{
 	width: 198px;
 	padding-top: 3px;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #4E425E !important;
+}
+
+.navbar-toggle{
+	margin-top: 13px !important;
+}
 
 .navbar-nav > li > a {
 	padding-top:14px !important; 
@@ -79,9 +89,12 @@ li{
 
 
 #intro { 
-	background: url(../images/chairBackground-01-01.png)  0 fixed; 
+	background: url(../images/parallax.jpg)  0 fixed; 
+	background-position: top;
 	background-repeat: repeat-y;
 	height: 400px; 
+	background-size: 100%;
+	/*background-position: top;*/
 	/*margin-top: 60px;*/ 
 	margin: 0 auto; 
 	width: 100%; 
@@ -147,8 +160,9 @@ footer{
 }
 
 .text-footer{
-	text-align: center;
+	text-align: center; 
 	color: white;
+	background-color: #4E425E;
 	font-family: 'Raleway', sans-serif !important;
 	font-weight: 400;
 	padding-top: 20px;
@@ -170,13 +184,13 @@ footer{
 }
 
 .logo-white{
-	padding-top: 32%;
 	width: 500px;
 }
 
 .logo-white-box{
 	margin: 0 auto;
 	text-align: center;
+	padding-left: 0 !important;
 }
 
 /*EXHIBTION PAGE*/
@@ -188,8 +202,16 @@ footer{
 	background-size: cover;
 }
 
+.famous-chairs{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	top: 50%;
+	padding: 0 20px;
+}
+
 .text-exhibition{
-	padding-top: 17%;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -215,3 +237,109 @@ footer{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 991px) {
+    .logo-white{
+	width: 450px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	ul{
+		float: none!important;
+	}
+	li{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+    .parallax-text{
+    	font-size: 40px;
+    	padding-left: 50px;
+    }
+    .parallax-author{
+    	padding-right: 50px;
+    }
+
+    #intro{
+    	padding-top: 15% !important;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+	#intro{
+    	padding-top: 18% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-white{
+		width: 450px;
+	}
+
+@media only screen and (max-width: 544px) {
+	.col-text{
+		width: 100% !important;
+	}
+	.paragraph-exhibition{
+ 		text-align: center;
+ 	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 544px){
+ 	#lastimage-image{
+ 		display: none!important;
+ 	}
+ 	.lastimage{
+		display: none!important;
+ 	}
+
+}
+
+@media only screen and (max-width: 491px) {
+	#intro{
+    	padding-top: 14% !important;
+    }
+    .logo-white{
+		width: 350px;
+	}
+	.text-footer{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 419px) {
+	.col-xs-6{
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+    .images-atractions {
+        width: 100% !important;
+    }
+    .logo-white{
+    	width: 270px;
+    }
+    .parallax-text{
+    	font-size: 30px;
+    }
+
+    #intro{
+    	padding-top: 25% !important;
+    }
+    .text-footer{
+    	padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+	.text-exhibition{
+		font-size: 20px;
+	}
+}
+

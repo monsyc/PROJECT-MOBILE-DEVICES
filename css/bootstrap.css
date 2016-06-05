@@ -6520,7 +6520,7 @@ button.close {
   margin-left: auto;
 }
 .pull-right {
-  float: right !important;
+  float: right ;
 }
 .pull-left {
   float: left !important;
@@ -6554,7 +6554,7 @@ button.close {
 .visible-sm,
 .visible-md,
 .visible-lg {
-  display: none !important;
+  display: none ;
 }
 .visible-xs-block,
 .visible-xs-inline,
@@ -6572,7 +6572,7 @@ button.close {
 }
 @media (max-width: 767px) {
   .visible-xs {
-    display: block !important;
+    display: block ;
   }
   table.visible-xs {
     display: table !important;
