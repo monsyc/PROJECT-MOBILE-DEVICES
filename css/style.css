@@ -1,3 +1,6 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
 
 
 .logo{
@@ -13,6 +16,15 @@
 	font-weight: 400;
 	font-size: 13px;
 }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: #4E425E !important;
+}
+
+.navbar-default {
+  background-color:black !important;
+ }
 
 .navbar {
 	min-height:65px !important;
@@ -74,9 +86,132 @@ li{
 	margin: 0 auto; 
 	width: 100%; 
 	position: relative; 
-	padding-top:300px;
+	padding-top:90px;
+	padding-left: 100px;
 	background-size: cover;
+	color: white
 	padding-right:0 !important;
   	padding-left:0 !important;
 
+}
+
+.parallax-text{
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 400;
+	font-size: 50px;
+	padding-left: 100px;
+}
+.parallax-author{
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 400;
+	font-size: 15px;
+	padding-right:100px;
+	float: right;
+}
+
+/*INFO MUSEUM*/
+
+.info-museum{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.text-museum{
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 400;
+	color:#414042;
+}
+
+.logo-south{
+	width: 240px;
+	
+}
+
+.row-logo{
+	margin:50px auto;
+	text-align: center;
+
+}
+
+.social-media{
+	width: 50px;
+	padding: 0 5px;
+}
+
+footer{
+	background-color: #4E425E;
+	height: 60px;
+}
+
+.text-footer{
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.text-footer-link{
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 400;
+	padding-top: 20px;
+}
+.text-footer-link:hover{
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+.logo-white{
+	padding-top: 32%;
+	width: 500px;
+}
+
+.logo-white-box{
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*EXHIBTION PAGE*/
+
+.box-exhibition{
+	width: 100%;
+	height: 50vh;
+	background-image: url(../images/exhibition-top-01.jpg);
+	background-size: cover;
+}
+
+.text-exhibition{
+	padding-top: 17%;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+.paragraph-exhibition{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	text-align: right;
+	padding: 0 10px;
+}
+
+.chair-name{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	text-align: center;
+	padding: 15px 10px 10px 10px;
+}
+
+.row-chairs{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
